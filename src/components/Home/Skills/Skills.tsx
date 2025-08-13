@@ -23,7 +23,7 @@ const skills = [
     {
         name:'Tailwind CSS',
         icon: <SiTailwindcss/>,
-        percentage:90,
+        percentage:92,
     },
     {
         name:'Node.js',
@@ -33,43 +33,43 @@ const skills = [
     {
         name:'Clerk',
         icon: <SiClerk/>,
-        percentage:80,
+        percentage:90,
     },
     {
         name:'Auth',
         icon: <IoLockClosedSharp/>,
-        percentage:80,
+        percentage:88,
     },
     {
         name:'Postgresql',
         icon: <BiLogoPostgresql/>,
-        percentage:80,
+        percentage:87,
     },
     {
         name:'Firebase',
         icon: <IoLogoFirebase/>,
-        percentage:80,
+        percentage:86,
     },
     {
         name:'Git',
         icon: <FaGitAlt/>,
-        percentage:80,
+        percentage:84,
     },
     {
         name:'Github',
         icon: <FaGithub/>,
-        percentage:80,
+        percentage:95,
     },
     {
         name:'Stripe',
         icon: <GrStripe/>,
-        percentage:80,
+        percentage:85,
     },
 ]
 
 export default function Skills() {
   return (
-    <div data-aos="fade-left" data-aos-delay="200" className='text-white pt-16 pb-16'>
+    <div id='skills' data-aos="fade-left" data-aos-delay="200" className='text-white pt-16 pb-16'>
         <h1 className='text-center text-2xl md:text-4xl lg:text-5xl font-bold'>
             My <span className='text-cyan-200'>Skills</span>
         </h1>
