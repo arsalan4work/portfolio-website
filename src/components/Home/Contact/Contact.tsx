@@ -8,6 +8,7 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Link from "next/link";
 import { SiCalendly } from "react-icons/si";
+import { SVGProps } from "react";
 
 // Zod schema for validation
 const contactSchema = z.object({
@@ -173,7 +174,7 @@ const SocialIcon = ({ icon, color }: { icon: React.ReactElement; color: string }
                 ${color} transition-all duration-300 shadow-md`}
   >
     {React.isValidElement(icon) &&
-  React.cloneElement(icon as React.ReactElement<any>, {
+  React.cloneElement(icon as React.ReactElement<SVGProps<SVGSVGElement>>, {
     className: "text-white w-6 h-6"
   })}
   </div>
